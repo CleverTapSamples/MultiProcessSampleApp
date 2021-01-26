@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "338374641410",
+    "project_id": "beardedrobot-2",
+    "storage_bucket": "beardedrobot-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338374641410:android:51b32dfc47c5fd0916241b",
+        "android_client_info": {
+          "package_name": "com.clevertap.beardedrobot_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338374641410-vj62valaq4jjj8uuqnltbq60c5stag66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKTiKCL2ImjxnHIzH2Kg4pMPDGequyxRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338374641410-vj62valaq4jjj8uuqnltbq60c5stag66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338374641410:android:dac0d4b50f819a1516241b",
+        "android_client_info": {
+          "package_name": "com.clevertap.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338374641410-vj62valaq4jjj8uuqnltbq60c5stag66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKTiKCL2ImjxnHIzH2Kg4pMPDGequyxRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338374641410-vj62valaq4jjj8uuqnltbq60c5stag66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
