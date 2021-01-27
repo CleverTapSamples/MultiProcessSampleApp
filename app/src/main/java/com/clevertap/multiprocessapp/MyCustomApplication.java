@@ -5,6 +5,7 @@ import android.os.Build.VERSION_CODES;
 import android.util.Log;
 import androidx.annotation.RequiresApi;
 import com.clevertap.android.sdk.ActivityLifecycleCallback;
+import com.google.firebase.FirebaseApp;
 
 public class MyCustomApplication extends Application {
 
@@ -15,6 +16,9 @@ public class MyCustomApplication extends Application {
     public void onCreate() {
         super.onCreate();
         String currentProcessName = Utils.getCurrentProcessName(this);
+        if (Constant.MAIN_PROCESS_NAME.equalsIgnoreCase(currentProcessName)) {
+            FirebaseApp.initializeApp(this);
+        }
         ActivityLifecycleCallback.register(this);
         Log.d(TAG, "onCreate: " + currentProcessName);
     }

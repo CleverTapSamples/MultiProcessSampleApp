@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import com.clevertap.multiprocessapp.Constant.PROCESS;
-import com.clevertap.multiprocessapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
